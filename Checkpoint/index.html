@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 1 - Bootcamp Java</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      div#janelaCliente,
+      #janelaProduto {
+        width: 400px;
+        height: 200px;
+        color: aliceblue;
+        font-size: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: chocolate;
+        font-weight: bold;
+      }
+
+      div#janelaProduto {
+        background-color: rgb(189, 30, 210);
+      }
+
+      .mostrar {
+        display: block;
+      }
+
+      .fechar {
+        display: none;
+      }
+
+      a {
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        color: black;
+      }
+
+      a:hover {
+        color: rgb(19, 129, 198);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="janelaCliente" class="mostrar">janela de Cliente</div>
+    <div id="janelaProduto" class="fechar">janela de Produto</div>
+    <a href="index1.html" target="_blank" rel="noopener noreferrer"
+      >Alinhamento</a
+    >
+  </body>
+</html>
